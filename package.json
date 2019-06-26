@@ -1,0 +1,11 @@
+{
+  "name": "html2pdf",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "pdftojpg": "^0.0.1",
+    "phantom-html2pdf": "^4.0.1",
+    "xlsx": "^0.14.3"
+  }
+}
