@@ -4,7 +4,9 @@
   "main": "main.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ./main.js"
+    "start": "node ./main.js",
+    "build-win": "nexe main.js -t win32-x64-6.11.2 --verbose -o ./excel2jpg.exe",
+    "build-mac": "nexe main.js -t mac-x64-8.4.0 --verbose -o ./excel2jpg"
   },
   "dependencies": {
     "pdf2jpg.js": "^0.0.1",
