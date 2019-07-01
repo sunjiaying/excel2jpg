@@ -3,7 +3,7 @@ var fs =require('fs');
 var XLSX = require('xlsx');
 var buf = fs.readFileSync("./test.xlsx");
 var wb = XLSX.read(buf, {type:'buffer'});
-var pdftojpg = require('pdftojpg');
+var pdftojpg = require('pdf2jpg.js');
 var path = require('path');
 var temp = require('temp').track();
 var assert = require('assert');
@@ -37,7 +37,8 @@ pdf.convert(pdfOptions, function(err, result) {
     var testFile = path.join(__dirname, 'file.pdf');
     temp.open({suffix: '.jpg'}, function(err, tempFile) {
       var dest = path.join(__dirname, 'file.jpg');
-      pdftojpg.convert(testFile, dest, function (err) {
+      var resolutionRatio = '300';
+      pdftojpg.convert(testFile, dest, resolutionRatio, function (err) {
         if (err) {
           throw err;
         } else {

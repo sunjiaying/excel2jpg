@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "main.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./main.js"
+  },
   "dependencies": {
-    "pdftojpg": "^0.0.1",
+    "pdf2jpg.js": "^0.0.1",
     "phantom-html2pdf": "^4.0.1",
     "xlsx": "^0.14.3"
   }

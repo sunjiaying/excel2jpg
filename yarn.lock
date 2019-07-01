@@ -478,10 +478,10 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.npm.taobao.org/path-is-absolute/download/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-pdftojpg@^0.0.1:
+pdf2jpg.js@^0.0.1:
   version "0.0.1"
-  resolved "https://registry.npm.taobao.org/pdftojpg/download/pdftojpg-0.0.1.tgz#f937fe1bf52658186c4a75aa64241fe99e4972d5"
-  integrity sha1-+Tf+G/UmWBhsSnWqZCQf6Z5JctU=
+  resolved "https://registry.npm.taobao.org/pdf2jpg.js/download/pdf2jpg.js-0.0.1.tgz#279e0162ba94367b27f59deab66f9c982cf6b605"
+  integrity sha1-J54BYrqUNnsn9Z3qtm+cmCz2tgU=
   dependencies:
     glob "^7.0.3"
     temp "^0.8.3"
